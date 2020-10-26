@@ -1,0 +1,82 @@
+{
+  "name": "Questionnaire",
+  "questions":[
+  {
+   "id": "cat-dog",
+   "text": "tell us what kind of person you (yes, you can only be one of two different kinds, didnt you know?)",
+   "type": "single-select",
+   "options": [
+     "cats",
+     "dogs"
+   ]
+ },
+ {
+   "id": "gay",
+   "text": "how gay are you?",
+   "type": "single-select",
+   "options": [
+    "eats rainbows for breakfast",
+    "7/10",
+    "baby gay",
+    "asks oneself semi regularly: am i gay?",
+    "wears alot of leather",
+    "has at least one v gay hobby",
+    "you know who king princess is", 
+    "still thinks that 'girl crush' is a thing"
+  ]
+ },
+ {
+   "id": "bush",
+   "text": "what kind of nature is your fave?",
+   "type": "single-select",
+   "options": [
+     "bush, bush, dense bush",
+     "the raging seas",
+     "a calm lake",
+     "mossy forest",
+     "dry desert",
+     "vast expansive plains",
+     "towering mountains"
+   ]
+ },
+ {
+   "id": "sarahW",
+   "text": "do you know who sarah waters is?",
+   "type": "radio"
+ },
+ {
+  "id": "turtleNeck",
+  "text": "how many turtle necks do you have?",
+  "type": "radio"
+},
+ {
+   "id": "",
+   "text": "whats your least favourite colour?",
+   "type": "single-select",
+   "options": [
+     "bisque",
+     "magenta",
+     "salmon",
+     "sage",
+     "sepia",
+     "eggplant"
+   ]
+ },
+ {
+   "id": "topics",
+   "text": "what are you most interested in of these topics?",
+   "type": "single-select",
+   "options": [
+     "quauntum mechanics",
+     "history of nature",
+     "jellyfish",
+     "economics",
+     "entomology",
+     "bird migration",
+     "wind instruments",
+     "blacksmithing",
+     "hair"
+   ]
+ }
+ ]
+ }
