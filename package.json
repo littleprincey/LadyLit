@@ -4,13 +4,37 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "express": "^4.17.1",
     "express-handlebars": "^5.2.0",
-    "express": "^4.17.1"
+    "knex": "^0.21.9",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "sqlite3": "^5.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "babel-loader": "^8.1.0",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-proposal-object-rest-spread"
+    ]
+  },
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon index"
+    "dev": "webpack --watch & nodemon server"
   },
   "repository": {
     "type": "git",
